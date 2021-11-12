@@ -1,7 +1,10 @@
 .footer {
+	max-width: 320px;
+	width: 100%;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
-	margin-top: auto;
+	// margin-top: auto;
 
 	&__description {
 		display: none;

@@ -439,6 +439,9 @@ html {
 }
 
 .order {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
   padding: 50px 15px;
   background-color: #f4f5f7;
 }
@@ -526,9 +529,11 @@ html {
 }
 
 .footer {
+  max-width: 320px;
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
-  margin-top: auto;
 }
 .footer__description {
   display: none;
