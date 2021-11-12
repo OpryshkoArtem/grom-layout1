@@ -67,7 +67,7 @@
 	&__button {
 		margin-top: 12px;
 
-		@include for-large-up {
+		@include for-large-down {
 			width: 100%;
 			flex-shrink: 0;
 		}
