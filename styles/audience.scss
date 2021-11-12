@@ -1,7 +1,7 @@
 .audience {
 	max-width: 320px;
 	width: 100%;
-	margin: -22 auto;
+	margin: -22px auto;
 	padding: 50px 15px 0;
 
 	display: flex;
@@ -151,9 +151,15 @@
 	}
 
 	&__item:hover {
-		cursor: pointer;
-		background: #3141C5;
-		box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
-		color: #fff;
+		@include for-large-up {
+			cursor: pointer;
+			background: #3141C5;
+			box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+			color: #fff;
+		}
+		// cursor: pointer;
+		// background: #3141C5;
+		// box-shadow: 0px 13px 18px rgba(0, 0, 0, 0.15), 0px 11px 55px rgba(0, 0, 0, 0.07);
+		// color: #fff;
 	}
 }
