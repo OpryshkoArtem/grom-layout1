@@ -1,3 +1,5 @@
+@import 'breakpoints';
+
 * {
 	box-sizing: border-box;
 }
@@ -11,6 +13,11 @@ html {
 	width: 100%;
 	overflow-x: hidden;
 }
+
+@import 'common';
+@import 'header';
+@import 'headline';
+@import 'footer';
 
 @media screen and (min-width: 400px) {
 	.page {
