@@ -14,11 +14,11 @@ html {
 	width: 320px;
 	margin: auto;
 	@include for-large-up {
-		 display: flex;
-		 flex-direction: column;
-		 width: 100%;
-		 max-width: 1400px;
-		 min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		max-width: 1400px;
+		min-height: 100vh;
 	}
 }
 
