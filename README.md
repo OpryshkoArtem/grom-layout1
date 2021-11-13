@@ -3,15 +3,17 @@
 Hello World!!!
 
 This is my first landing page layout
-<br>
+
 Supports desktop and mobile versions
 
-## Pages implemented:
-
-https://opryshkoartem.github.io/grom-layout1/index.html
+### [Site link](https://opryshkoartem.github.io/grom-layout1/index.html)
 
 ## Tech stack:
 
-HTML5, CSS3, SASS
-<br>
-BEM methodology, Flex
+[HTML5](https://en.wikipedia.org/wiki/HTML5), [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [Sass (Scss)](https://sass-lang.com/)
+
+[BEM methodology](https://en.bem.info/methodology/), [Flexbox layout](https://en.wikipedia.org/wiki/CSS_Flexible_Box_Layout)
+
+### Author
+
+Artem Opryshko
