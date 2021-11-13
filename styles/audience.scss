@@ -59,8 +59,9 @@
   }
 
   &__buttons {
-    @include for-large-up {
-      display: flex;
+		width: 100%;
+   	@include for-large-up {
+      	display: flex;
     }
   }
 
@@ -74,6 +75,7 @@
     font-weight: $bold-type;
     border: none;
     border-radius: 2px;
+	 cursor: pointer;
 
     @include for-large-down {
       width: 100%;

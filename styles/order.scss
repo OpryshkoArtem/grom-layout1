@@ -6,7 +6,6 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	display: none;
 
 	@include for-large-up {
 	  padding: 73px 0 72px 0;

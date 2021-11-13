@@ -336,6 +336,9 @@ html {
     margin-bottom: 34px;
   }
 }
+.audience__buttons {
+  width: 100%;
+}
 @media screen and (min-width: 1400px) {
   .audience__buttons {
     display: flex;
@@ -351,6 +354,7 @@ html {
   font-weight: 700;
   border: none;
   border-radius: 2px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1399px) {
   .audience__action-button {
@@ -421,7 +425,6 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  display: none;
 }
 @media screen and (min-width: 1400px) {
   .order {
@@ -517,12 +520,6 @@ html {
 .footer {
   display: flex;
   flex-direction: column;
-  display: none;
-}
-@media screen and (min-width: 1400px) {
-  .footer {
-    display: block;
-  }
 }
 .footer__description {
   display: none;
