@@ -8,6 +8,8 @@ Supports desktop and mobile versions
 
 ## Pages implemented:
 
+https://opryshkoartem.github.io/grom-layout1/index.html
+
 ## Tech stack:
 
 HTML5, CSS3, SASS
