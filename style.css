@@ -421,6 +421,7 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  display: none;
 }
 @media screen and (min-width: 1400px) {
   .order {
@@ -516,6 +517,12 @@ html {
 .footer {
   display: flex;
   flex-direction: column;
+  display: none;
+}
+@media screen and (min-width: 1400px) {
+  .footer {
+    display: block;
+  }
 }
 .footer__description {
   display: none;
