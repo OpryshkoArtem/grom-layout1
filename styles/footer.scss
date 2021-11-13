@@ -16,7 +16,7 @@
 	}
 
 	&__line {
-		border-top: 1px solid #2B292D;
+		border-top: 1px solid $text-color-primary;
 		width: 100%;
 		opacity: 0.1;
 		margin: 0;
@@ -94,10 +94,10 @@
 	width: 265px;
 
 	&__title {
-		font-weight: 700;
+		font-weight: $bold;
 		font-size: 22px;
 		line-height: 28px;
-		color: #2B292D;
+		color: $text-color-primary;
 		margin: 0;
 	}
 
@@ -177,7 +177,7 @@
 
 	&__name {
 		margin-top: 20px;
-		font-weight: 700;
+		font-weight: $bold;
 		font-size: 20px;
 		line-height: 25px;
 		text-align: center;

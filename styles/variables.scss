@@ -1,28 +1,28 @@
-
-$color-yellow-light:#fcf0e366;
-$color-white-light:#f2f2f2;
-$color-white:#fff;
-$color-light-grey:#e3e3e3;
-$color-blue:#0185D0;
+// Descriptive naming
+// ------------------
+$color-white:#ffffff;
+$color-black: #000000;
+$color-blue: #3040c4;
 $color-light-blue:#00a1c612;
-$color-dark:#2b292d;
-$color-grey:#d5d4d5;
-$color-dark-blue:#3141c5;
-$color-light:#f4f5f7;
-
-$text-color-green:#009b4d;
-$text-color-light-gray:#2b292d99;
-$text-color-orange: #f1592b;
-$text-color-blue: #3142c6;
-$text-color-black:#000;
-$text-color-white:#fff;
-$text-color-dark: $color-dark;
-
-$border-color: #2B292D33;
-
-// ===============================
+$color-darker-blue:#3141C5;
+$color-gray: #d9d9d9;
+$color-light-gray:#2b292d99;
+$color-dark-gray:#2b292d;
+$color-peach: #f3c6bd;
 
 
-$bold-type: 700;
 
-$color-black: #000;
+// Functional naming
+// -----------------
+// text
+$text-color-primary: $color-dark-gray;
+$text-color-white: $color-white;
+$text-color-blue: $color-blue;
+$text-color-light-gray: $color-light-gray;
+
+// weight
+$bold: 700;
+
+//button
+$button-bg-blue: $color-blue;
+$button-bg-white: $color-white;
