@@ -2,23 +2,23 @@
 @import 'breakpoints';
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
-	font-family: 'Work Sans', sans-serif;
-	font-size: 16px;
-	color: $text-color-primary;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: $text-color-primary;
 }
 .page {
-	margin: auto;
-	@include for-large-up {
-		display: flex;
-		flex-direction: column;
-		width: 100%;
-		max-width: 1400px;
-		min-height: 100vh;
-	}
+  margin: auto;
+  @include for-large-up {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1400px;
+    min-height: 100vh;
+  }
 }
 
 @import 'common';

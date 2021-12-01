@@ -1,23 +1,23 @@
 .action-button {
-	background-color: $button-bg-blue;
-	color: $text-color-white;
-	width: 160px;
-	height: 48px;
-	font-size: 18px;
-	font-weight: $bold;
-	border-radius: 2px;
-	border: none;
-	cursor: pointer;
+  background-color: $button-bg-blue;
+  color: $text-color-white;
+  width: 160px;
+  height: 48px;
+  font-size: 18px;
+  font-weight: $bold;
+  border-radius: 2px;
+  border: none;
+  cursor: pointer;
 }
 
 .hide_desktop {
-	@include for-large-up {
-		 display: none;
-	}
+  @include for-large-up {
+    display: none;
+  }
 }
 
 .hide_mobile {
-	@include for-large-down {
-		 display: none;
-	}
+  @include for-large-down {
+    display: none;
+  }
 }
